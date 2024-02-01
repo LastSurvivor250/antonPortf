@@ -14,8 +14,7 @@ const navLinks = [
 ];
 
 const Navbar = () => {
-  const [openMobileMenu, setOpenMobileMenu] =
-    useState(false);
+  const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
   const isScrolling = useScrollEffect();
 
@@ -32,9 +31,7 @@ const Navbar = () => {
     >
       <div className="max-w-[1400px] mx-auto flex justify-between items-center w-[91%]">
         <Link href={"#home"}>
-          <h1 className="text-3xl text-yellow-500 font-bold">
-            Antonio
-          </h1>
+          <h1 className="text-3xl text-purple-500 font-bold">Paul Migasiuk</h1>
         </Link>
 
         <ul
