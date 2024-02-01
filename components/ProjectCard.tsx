@@ -1,5 +1,5 @@
 "use client";
-import { urlFor } from "@/sanity/lib/client";
+import { urlFor } from "next-sanity";
 import Image from "next/image";
 import { useState } from "react";
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
