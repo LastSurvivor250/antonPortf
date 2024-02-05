@@ -35,7 +35,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="flex flex-1 justify-end max-md:order-1 max-md:mb-3">
+        <div className="flex flex-1 pb-60px justify-end max-md:order-1 max-md:mb-3">
           <Image
             src={"/header-image.png"}
             width={450}
