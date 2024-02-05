@@ -43,7 +43,7 @@ const Navbar = () => {
             <Link
               href={link.route}
               key={link.id}
-              className="hover:underline hover:text-yellow-500 transition duration-500"
+              className="hover:underline hover:text-purple-500 transition duration-500"
             >
               <li>{link.name}</li>
             </Link>
@@ -52,7 +52,7 @@ const Navbar = () => {
 
         <div
           className={`md:hidden text-3xl cursor-pointer ${
-            isScrolling ? "text-yellow-500" : "text-white"
+            isScrolling ? "text-purple-500" : "text-white"
           }`}
           onClick={handleOpenMobileMenu}
         >
@@ -60,7 +60,7 @@ const Navbar = () => {
         </div>
 
         {openMobileMenu && (
-          <ul className="md:hidden bg-yellow-500 absolute top-14 right-5 px-4 py-6 text-center rounded-md flex flex-col gap-3 shadow-md">
+          <ul className="md:hidden bg-purple-500 absolute top-14 right-5 px-4 py-6 text-center rounded-md flex flex-col gap-3 shadow-md">
             {navLinks.map((link) => (
               <Link href={link.route} key={link.id}>
                 <li>{link.name}</li>

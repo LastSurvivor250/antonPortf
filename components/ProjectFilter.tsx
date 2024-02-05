@@ -10,13 +10,9 @@ interface Project {
 }
 
 interface ProjectFilterProps {
-  setFiltered: React.Dispatch<
-    React.SetStateAction<Project[]>
-  >;
+  setFiltered: React.Dispatch<React.SetStateAction<Project[]>>;
   activeCategory: string;
-  setActiveCategory: React.Dispatch<
-    React.SetStateAction<string>
-  >;
+  setActiveCategory: React.Dispatch<React.SetStateAction<string>>;
   projects: Project[];
 }
 
@@ -53,11 +49,7 @@ const ProjectFilter: React.FC<ProjectFilterProps> = ({
         <button
           key={category.key}
           className={`text-gray-500 
-        ${
-          activeCategory === category.key
-            ? "border-yellow-500 border-b-2"
-            : ""
-        }
+        ${activeCategory === category.key ? "border-purple-500 border-b-2" : ""}
         `}
           onClick={() => setActiveCategory(category.key)}
         >

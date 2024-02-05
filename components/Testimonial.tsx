@@ -41,13 +41,10 @@ const testimonials = [
 
 const Testimonial = () => {
   return (
-    <div
-      id="testimonials"
-      className="w-full h-fit py-20 relative bg-white"
-    >
+    <div id="testimonials" className="w-full h-fit py-20 relative bg-white">
       <div className="max-w-[1400px] w-[91%] mx-auto">
         <div className="flex justify-center">
-          <span className="bg-yellow-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5">
+          <span className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5">
             Testimonials
           </span>
         </div>
