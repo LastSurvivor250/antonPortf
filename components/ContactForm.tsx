@@ -8,9 +8,7 @@ const ContactForm = () => {
   const form = useRef<HTMLFormElement | null>(null);
   const { pending } = useFormStatus();
 
-  const sendEmail = (
-    e: React.FormEvent<HTMLFormElement>
-  ) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     emailjs
@@ -40,7 +38,7 @@ const ContactForm = () => {
           name="name"
           id="name"
           placeholder="Name"
-          className="block w-full h-[45px] p-[5px] text-xl border-gray-500 mb-6 border-b focus:outline-yellow-500 text-gray-700 bg-gray-100"
+          className="block w-full h-[45px] p-[5px] text-xl border-gray-500 mb-6 border-b focus:outline-purple-500 text-gray-700 bg-gray-100"
         />
         <label htmlFor="email" className="sr-only">
           Email
@@ -51,7 +49,7 @@ const ContactForm = () => {
           name="email"
           id="email"
           placeholder="Email"
-          className="block w-full h-[45px] p-[5px] text-xl border-gray-500 mb-6 border-b focus:outline-yellow-500 text-gray-700 bg-gray-100"
+          className="block w-full h-[45px] p-[5px] text-xl border-gray-500 mb-6 border-b focus:outline-purple-500 text-gray-700 bg-gray-100"
         />
       </div>
       <div className="mb-4">
@@ -63,11 +61,11 @@ const ContactForm = () => {
           id="message"
           rows={6}
           placeholder="Your Message"
-          className="block w-full h-auto p-[5px] text-xl border-gray-500 mb-6 border-b focus:outline-yellow-500 text-gray-700 bg-gray-100"
+          className="block w-full h-auto p-[5px] text-xl border-gray-500 mb-6 border-b focus:outline-purple-500 text-gray-700 bg-gray-100"
         ></textarea>
       </div>
       <button
-        className="bg-yellow-500 py-2 px-4 rounded-md font-bold"
+        className="bg-purple-500 py-2 px-4 rounded-md font-bold"
         aria-label="Submit"
         disabled={pending}
       >
