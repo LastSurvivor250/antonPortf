@@ -16,7 +16,7 @@ const navLinks = [
 const Navbar = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
-  const { isScrolling, transitionDuration } = useScrollEffect(200, 500);
+  const { isScrolling, transitionDuration } = useScrollEffect(200, 900);
 
   const handleOpenMobileMenu = () => {
     setOpenMobileMenu(!openMobileMenu);
