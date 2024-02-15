@@ -16,7 +16,7 @@ const navLinks = [
 const Navbar = () => {
   const [openMobileMenu, setOpenMobileMenu] = useState(false);
 
-  const isScrolling = useScrollEffect();
+  const { isScrolling, transitionDuration } = useScrollEffect(200, 500);
 
   const handleOpenMobileMenu = () => {
     setOpenMobileMenu(!openMobileMenu);
@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav
       className={`w-full top-0 z-[99999] py-5 ${
         isScrolling
-          ? "fixed top-0 bg-purple-500 shadow-lg transition duration-900"
+          ? `fixed bg-purple-500 shadow-lg transition duration-${transitionDuration}`
           : "relative"
       }`}
     >
