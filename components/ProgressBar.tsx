@@ -13,7 +13,7 @@ const ProgressBar = ({
   return (
     <div className="mb-10">
       <div className="flex items-center mb-2 gap-1">
-        <div className="font-medium text-gray-700">{title}</div>
+        <div className="font-medium text-[#b63792]">{title}</div>
         <Image
           src={iconPath}
           height={60}
@@ -26,7 +26,7 @@ const ProgressBar = ({
       <div className="relative pt-1">
         <div className="flex mb-2 items-center justify-between">
           <div>
-            <span className="text-sm font-semibold inline-block  text-gray-700">
+            <span className="text-sm font-semibold inline-block  text-gray-200">
               {`${percentage}%`}
             </span>
           </div>

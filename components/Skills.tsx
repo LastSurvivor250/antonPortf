@@ -37,7 +37,7 @@ const Skills = () => {
           Skills
         </span>
       </div>
-      <div className="max-w-[1400px] w-[91%] mx-auto grid md:grid-cols-2 md:gap-10">
+      <div className="max-w-[1400px] w-[91%] mx-auto grid md:grid-cols-3 md:gap-10">
         {skills.map((skill, index) => (
           <div key={index}>
             <ProgressBar {...skill} />
