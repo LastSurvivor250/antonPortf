@@ -36,7 +36,7 @@ const Navbar = () => {
 
         <ul
           className={`flex gap-10 max-md:hidden ${
-            isScrolling ? "text-black" : "text-white"
+            isScrolling ? "text-white" : "text-white"
           }`}
         >
           {navLinks.map((link) => (
