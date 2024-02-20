@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav
       className={`w-full top-0 z-[99999] py-5 ${
         isScrolling
-          ? `fixed bg-purple-500 shadow-lg transition duration-${transitionDuration}`
+          ? `fixed bg-black shadow-lg transition duration-${transitionDuration}`
           : "relative"
       }`}
     >
