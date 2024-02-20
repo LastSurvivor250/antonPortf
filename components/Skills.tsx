@@ -19,6 +19,14 @@ const skills = [
     percentage: 100,
   },
   { iconPath: "/git.png", title: "Git", percentage: 89 },
+
+  { iconPath: "/html5.png", title: "HTML", percentage: 90 },
+  { iconPath: "/css.png", title: "CSS", percentage: 80 },
+  {
+    iconPath: "/js.png",
+    title: "JavaScript",
+    percentage: 95,
+  },
 ];
 
 const Skills = () => {
