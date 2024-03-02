@@ -12,7 +12,10 @@ const ProgressBar = ({
 }) => {
   return (
     <div className="mb-10">
-      <div className="flex items-center mb-2 gap-1">
+      <div
+        className=" transform transition-all duration-300 ease-in-out;
+  transform: translateY(-0.5rem) flex items-center mb-2 gap-1"
+      >
         <div className="font-medium text-[#b63792]">{title}</div>
         <Image
           src={iconPath}
