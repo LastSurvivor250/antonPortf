@@ -20,9 +20,24 @@ const ProjectCard = ({
       onMouseLeave={() => setIsHovered(false)}
       onMouseEnter={() => setIsHovered(true)}
     >
-      <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
-      <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
-      <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
+      <Image
+        src={"/header-image.png"}
+        alt="Antonio's Image"
+        height={800}
+        width={800}
+      />
+      <Image
+        src={"/header-image.png"}
+        alt="Antonio's Image"
+        height={800}
+        width={800}
+      />
+      <Image
+        src={"/header-image.png"}
+        alt="Antonio's Image"
+        height={800}
+        width={800}
+      />
       <div className="flex flex-1 pb-60px justify-end max-md:order-1 max-md:mb-3">
         <Image
           src={"/header-image.png"}
