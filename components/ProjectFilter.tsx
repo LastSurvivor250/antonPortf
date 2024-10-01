@@ -9,6 +9,13 @@ interface Project {
   category?: string;
 }
 
+interface ProjectFilterProps {
+  setFiltered: React.Dispatch<React.SetStateAction<Project[]>>;
+  activeCategory: string;
+  setActiveCategory: React.Dispatch<React.SetStateAction<string>>;
+  projects: Project[];
+}
+
 const ProjectFilter: React.FC<ProjectFilterProps> = ({
   setFiltered,
   activeCategory,
