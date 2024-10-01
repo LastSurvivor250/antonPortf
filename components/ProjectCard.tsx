@@ -1,5 +1,5 @@
 "use client";
-import { urlFor } from "@/sanity/lib/client";
+//import { urlFor } from "@/sanity/lib/client";
 import Image from "next/image";
 import { useState } from "react";
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
@@ -21,7 +21,7 @@ const ProjectCard = ({
       onMouseEnter={() => setIsHovered(true)}
     >
       <Image
-        src={urlFor(image).url()}
+        src={"/header-image.png"}
         alt={`${name} Image`}
         height={800}
         width={800}
