@@ -5,6 +5,7 @@ import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
 import { client } from "@/sanity/lib/client";
 import ProjectCard from "@/components/ProjectCard";
+import ProjectFilter from "@/components/ProjectFilter";
 
 export const dynamic = "force-dynamic";
 
@@ -26,6 +27,12 @@ export default async function Home() {
   return (
     <>
       <Hero />
+      <ProjectFilter
+        setFiltered={setFiltered}
+        activeCategory={activeCategory}
+        setActiveCategory={setActiveCategory}
+        projects={projects}
+      />
       <ProjectCard />
 
       <Skills />
