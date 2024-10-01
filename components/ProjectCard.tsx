@@ -50,8 +50,8 @@ const ProjectCard = () => {
             <div className="flex justify-center">
               <Image
                 src={image.src}
-                width={250}
-                height={250}
+                width={350}
+                height={350}
                 role="img"
                 aria-label={`Antonio's Image ${index + 1}`}
                 alt={`Antonio's Image ${index + 1}`}
