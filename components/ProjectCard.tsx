@@ -8,12 +8,30 @@ const ProjectCard = () => {
   const [isHovered, setIsHovered] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const images = [
-    "/kamala.png",
-    "/kamala.png",
-    "/kamala.png",
-    "/kamala.png",
-    "/kamala.png",
-    "/kamala.png",
+    {
+      src: "/kamala.png",
+      link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+    }, // Każdy obrazek z odpowiednim linkiem
+    {
+      src: "/kamala1.png",
+      link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+    },
+    {
+      src: "/kamala2.png",
+      link: "https://job-hunt-ashen.vercel.app/",
+    }, // Każdy obrazek z odpowiednim linkiem
+    {
+      src: "/kamala.png",
+      link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+    },
+    {
+      src: "/kamala.png",
+      link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+    }, // Każdy obrazek z odpowiednim linkiem
+    {
+      src: "/kamala.png",
+      link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+    },
   ];
   return (
     // Zmieniamy na stan dla każdego obrazka
@@ -28,17 +46,19 @@ const ProjectCard = () => {
           onMouseLeave={() => setHoveredIndex(null)}
           onMouseEnter={() => setHoveredIndex(index)}
         >
-          <div className="flex justify-center">
-            <Image
-              src={src}
-              width={250}
-              height={250}
-              role="img"
-              aria-label={`Antonio's Image ${index + 1}`}
-              alt={`Antonio's Image ${index + 1}`}
-              className="md:justify-self-end max-md:w-96"
-            />
-          </div>
+          <a href={image.link} target="_blank" rel="noopener noreferrer">
+            <div className="flex justify-center">
+              <Image
+                src={src}
+                width={250}
+                height={250}
+                role="img"
+                aria-label={`Antonio's Image ${index + 1}`}
+                alt={`Antonio's Image ${index + 1}`}
+                className="md:justify-self-end max-md:w-96"
+              />
+            </div>
+          </a>
 
           {hoveredIndex === index && ( // Wyświetla tylko dla odpowiedniego obrazka
             <a href="/#" target="_blank">
