@@ -20,12 +20,9 @@ const ProjectCard = ({
       onMouseLeave={() => setIsHovered(false)}
       onMouseEnter={() => setIsHovered(true)}
     >
-      <Image
-        src={"/header-image.png"}
-        alt={`${name} Image`}
-        height={800}
-        width={800}
-      />
+      <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
+      <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
+      <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
 
       {isHovered && (
         <a href={url} target="_blank">
