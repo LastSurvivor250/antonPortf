@@ -27,7 +27,12 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      <ProjectFilter />
+      <ProjectFilter
+        setFiltered={setFiltered}
+        activeCategory={activeCategory}
+        setActiveCategory={setActiveCategory}
+        projects={projects}
+      />
       <ProjectCard />
 
       <Skills />
