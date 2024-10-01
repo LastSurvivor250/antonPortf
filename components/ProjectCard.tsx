@@ -4,15 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
 
-const ProjectCard = ({
-  name,
-  image,
-  url,
-}: {
-  name: string;
-  image: string;
-  url: string;
-}) => {
+const ProjectCard = () => {
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
