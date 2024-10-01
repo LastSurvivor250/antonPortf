@@ -12,29 +12,29 @@ const ProjectCard = () => {
       onMouseLeave={() => setIsHovered(false)}
       onMouseEnter={() => setIsHovered(true)}
     >
-      <Image
-        src={"/header-image.png"}
-        alt="Antonio's Image"
-        height={800}
-        width={800}
-      />
-      <Image
-        src={"/header-image.png"}
-        alt="Antonio's Image"
-        height={800}
-        width={800}
-      />
-      <Image
-        src={"/header-image.png"}
-        alt="Antonio's Image"
-        height={800}
-        width={800}
-      />
       <div className="flex flex-1 pb-60px justify-end max-md:order-1 max-md:mb-3">
         <Image
-          src={"/header-image.png"}
-          width={450}
-          height={450}
+          src={"/kamala.png"}
+          width={250}
+          height={250}
+          role="img"
+          aria-label="Antonio's Image"
+          alt="Antonio's Image"
+          className="md:justify-self-end max-md:w-96"
+        />
+        <Image
+          src={"/kamala.png"}
+          width={250}
+          height={250}
+          role="img"
+          aria-label="Antonio's Image"
+          alt="Antonio's Image"
+          className="md:justify-self-end max-md:w-96"
+        />
+        <Image
+          src={"/kamala.png"}
+          width={250}
+          height={250}
           role="img"
           aria-label="Antonio's Image"
           alt="Antonio's Image"
