@@ -4,6 +4,7 @@ import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
 import { client } from "@/sanity/lib/client";
+import ProjectCard from "@/components/ProjectCard";
 
 export const dynamic = "force-dynamic";
 
@@ -25,6 +26,7 @@ export default async function Home() {
   return (
     <>
       <Hero />
+      <ProjectCard />
       <Portfolio projects={projects} />
       <Skills />
       <Testimonial />
