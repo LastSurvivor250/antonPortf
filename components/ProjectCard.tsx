@@ -23,6 +23,17 @@ const ProjectCard = ({
       <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
       <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
       <Image src={"/header-image.png"} alt={`Image`} height={800} width={800} />
+      <div className="flex flex-1 pb-60px justify-end max-md:order-1 max-md:mb-3">
+        <Image
+          src={"/header-image.png"}
+          width={450}
+          height={450}
+          role="img"
+          aria-label="Antonio's Image"
+          alt="Antonio's Image"
+          className="md:justify-self-end max-md:w-96"
+        />
+      </div>
 
       {isHovered && (
         <a href={url} target="_blank">
