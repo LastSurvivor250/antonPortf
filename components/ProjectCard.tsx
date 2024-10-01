@@ -39,7 +39,7 @@ const ProjectCard = () => {
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       {" "}
       {/* Zmienione na Grid z równym rozkładem */}
-      {images.map((src, index) => (
+      {images.map((image, index) => (
         <div
           key={index}
           className="shadow-md cursor-pointer relative"
@@ -49,7 +49,7 @@ const ProjectCard = () => {
           <a href={image.link} target="_blank" rel="noopener noreferrer">
             <div className="flex justify-center">
               <Image
-                src={src}
+                src={image.src}
                 width={250}
                 height={250}
                 role="img"
