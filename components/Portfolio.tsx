@@ -32,7 +32,7 @@ const Portfolio: React.FC<{ projects: Project[] }> = ({ projects }) => {
           setActiveCategory={setActiveCategory}
           projects={projects}
         />
-
+        <ProjectCard />
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-10">
           {filtered.slice(0, visibleProjects).map((project, index) => (
             <ProjectCard />
