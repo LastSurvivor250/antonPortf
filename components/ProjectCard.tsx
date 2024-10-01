@@ -6,7 +6,7 @@ import { LiaExternalLinkAltSolid } from "react-icons/lia";
 
 const ProjectCard = () => {
   const [isHovered, setIsHovered] = useState(false);
-  const [hoveredIndex, setHoveredIndex] = useState(null);
+  const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
   const images = ["/kamala.png", "/kamala.png", "/kamala.png"];
   return (
     // Zmieniamy na stan dla każdego obrazka
