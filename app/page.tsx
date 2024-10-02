@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Portfolio from "@/components/Portfolio";
+import Bio from "@/components/Bio";
 import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
@@ -25,6 +26,7 @@ export default async function Home() {
   return (
     <>
       <Hero />
+      <Bio />
       <Portfolio projects={projects} />
       <Skills />
       <Testimonial />
