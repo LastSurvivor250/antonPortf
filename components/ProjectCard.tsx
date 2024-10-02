@@ -42,7 +42,7 @@ const ProjectCard = () => {
       {images.map((image, index) => (
         <div
           key={index}
-          className="relative w-[350px] h-[350px] shadow-md cursor-pointer overflow-hidden"
+          className="relative aspect-w-16 aspect-h-9 shadow-md cursor-pointer overflow-hidden"
           onMouseLeave={() => setHoveredIndex(null)}
           onMouseEnter={() => setHoveredIndex(index)}
         >
@@ -50,8 +50,9 @@ const ProjectCard = () => {
             <div className="flex justify-center w-full h-full">
               <Image
                 src={image.src}
-                width={350}
-                height={350}
+                layout="responsive" // Ustawiamy layout na responsive
+                width={16} // Proporcje szerokości
+                height={9} // Proporcje wysokości
                 role="img"
                 aria-label={`Antonio's Image ${index + 1}`}
                 alt={`Antonio's Image ${index + 1}`}
