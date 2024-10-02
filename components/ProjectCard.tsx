@@ -47,7 +47,7 @@ const ProjectCard = () => {
           onMouseEnter={() => setHoveredIndex(index)}
         >
           <a href={image.link} target="_blank" rel="noopener noreferrer">
-            <div className="flex justify-center">
+            <div className="flex justify-center w-full h-full">
               <Image
                 src={image.src}
                 width={350}
@@ -55,13 +55,13 @@ const ProjectCard = () => {
                 role="img"
                 aria-label={`Antonio's Image ${index + 1}`}
                 alt={`Antonio's Image ${index + 1}`}
-                className=" md:justify-self-end max-md:w-96 object-cover"
+                className=" md:justify-self-end max-md:w-96 w-full h-full object-cover"
               />
             </div>
           </a>
 
           {hoveredIndex === index && ( // Wyświetla tylko dla odpowiedniego obrazka
-            <div className="bg-purple-500/80 py-1 px-3 absolute top-0 left-0 w-full h-full flex justify-center items-center transition-opacity duration-500 opacity-100">
+            <div className="bg-purple-500/80 absolute top-0 left-0 w-full h-full flex justify-center items-center transition-opacity duration-500 opacity-100">
               <h3 className="text-center text-black text-2xl flex gap-1 items-center font-thin">
                 Checkout Project
                 <LiaExternalLinkAltSolid />
