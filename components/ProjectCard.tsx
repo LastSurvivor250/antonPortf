@@ -42,7 +42,7 @@ const ProjectCard = () => {
       {images.map((image, index) => (
         <div
           key={index}
-          className="relative w-[350px] h-[350px] shadow-md cursor-pointer "
+          className="relative w-[350px] h-[350px] shadow-md cursor-pointer overflow-hidden"
           onMouseLeave={() => setHoveredIndex(null)}
           onMouseEnter={() => setHoveredIndex(index)}
         >
@@ -55,7 +55,7 @@ const ProjectCard = () => {
                 role="img"
                 aria-label={`Antonio's Image ${index + 1}`}
                 alt={`Antonio's Image ${index + 1}`}
-                className=" md:justify-self-end max-md:w-96"
+                className=" md:justify-self-end max-md:w-96 object-cover"
               />
             </div>
           </a>
