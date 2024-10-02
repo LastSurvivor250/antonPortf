@@ -16,27 +16,32 @@ const Bio = () => {
               <br /> A problem-solver at heart, blending the sharp skills of an
               anticorrosion engineer with the creative edge of a JavaScript and
               React developer.
+              <p />
               <br />
               <p /> <strong>But I don’t stop there</strong> <p />
               <br />
               I'm also a t-shirt designer with a flair for bold,
               thought-provoking visuals that get people talking.
+              <p />
               <br /> <p />
               <strong>My mission?</strong> <p />
               <br />
               To push boundaries, whether I’m coding clean, efficient web
               applications or creating designs that challenge the status quo.{" "}
+              <p />
               <br />
               <p />
               <strong> What sets me apart?</strong> <p />
               <br /> My diverse skill set. I’m not just an engineer. I’m also a
               YouTuber, building a channel to spark conversations about ADHD and
-              mental health, inspiring resilience and growth. <br />
+              mental health, inspiring resilience and growth.
+              <p /> <br />
               <p />
               <strong> And did I mention?</strong> <p />
               <br />
               I'm into combat sports, fitness, and all things manga and
               anime—fueling my drive to always level up.
+              <p />
               <br /> <p />
               <strong>Ready to innovate?</strong> <p />
               <br /> Let’s make something unforgettable—whether it’s building
