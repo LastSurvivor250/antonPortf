@@ -11,26 +11,32 @@ const ProjectCard = () => {
     {
       src: "/kamala.png",
       link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     }, // Każdy obrazek z odpowiednim linkiem
     {
       src: "/kamala1.png",
       link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       src: "/kamala2.png",
       link: "https://job-hunt-ashen.vercel.app/",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     }, // Każdy obrazek z odpowiednim linkiem
     {
       src: "/kamala.png",
       link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
       src: "/kamala.png",
       link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     }, // Każdy obrazek z odpowiednim linkiem
     {
       src: "/kamala.png",
       link: "https://nowy-blog-git-branch2-lastsurvivor250s-projects.vercel.app/",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];
   return (
@@ -59,16 +65,21 @@ const ProjectCard = () => {
                 className=" md:justify-self-end max-md:w-96 w-full h-full object-cover"
               />
             </div>
-          </a>
 
-          {hoveredIndex === index && ( // Wyświetla tylko dla odpowiedniego obrazka
-            <div className="bg-purple-500/80 absolute top-0 left-0 w-full h-full flex justify-center items-center transition-opacity duration-500 opacity-100">
-              <h3 className="text-center text-black text-2xl flex gap-1 items-center font-thin">
-                Checkout Project
-                <LiaExternalLinkAltSolid />
-              </h3>
-            </div>
-          )}
+            {hoveredIndex === index && ( // Wyświetla tylko dla odpowiedniego obrazka
+              <div className="bg-purple-500/80 absolute top-0 left-0 w-full h-full flex justify-center items-center transition-opacity duration-500 opacity-100">
+                <h3 className="text-center text-black text-2xl flex gap-1 items-center font-thin">
+                  Checkout Project
+                  <LiaExternalLinkAltSolid />
+                </h3>
+              </div>
+            )}
+          </a>
+          <div className="mt-4 text-center">
+            <p className="text-lg font-medium text-gray-800">
+              {image.description}
+            </p>
+          </div>
         </div>
       ))}
     </div>
