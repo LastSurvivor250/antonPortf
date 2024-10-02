@@ -42,7 +42,7 @@ const ProjectCard = () => {
       {images.map((image, index) => (
         <div
           key={index}
-          className="relative w-[250px] h-[250px] shadow-md cursor-pointer "
+          className="relative w-[350px] h-[350px] shadow-md cursor-pointer "
           onMouseLeave={() => setHoveredIndex(null)}
           onMouseEnter={() => setHoveredIndex(index)}
         >
@@ -61,7 +61,7 @@ const ProjectCard = () => {
           </a>
 
           {hoveredIndex === index && ( // Wyświetla tylko dla odpowiedniego obrazka
-            <div className="bg-purple-500/80 py-1 px-3 absolute w-full h-full top-0 flex justify-center items-center transition-opacity duration-500 opacity-100">
+            <div className="bg-purple-500/80 py-1 px-3 absolute top-0 left-0 w-full h-full flex justify-center items-center transition-opacity duration-500 opacity-100">
               <h3 className="text-center text-black text-2xl flex gap-1 items-center font-thin">
                 Checkout Project
                 <LiaExternalLinkAltSolid />
