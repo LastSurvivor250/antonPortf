@@ -2,7 +2,7 @@
 
 const Bio = () => {
   return (
-    <div id="projects" className="w-full h-fit py-10 relative bg-white">
+    <div id="projects" className="w-full h-fit py-10 relative bg-[#98f5e1]">
       <div className="max-w-[1400px] mx-auto w-[91%]">
         <div className="flex justify-center">
           <span className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mt-4 mb-5">
