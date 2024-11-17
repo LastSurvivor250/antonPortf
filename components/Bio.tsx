@@ -14,12 +14,12 @@ const Bio = () => {
           <div className="mt-4 text-center mb-10">
             <p className="text-lg font-medium text-gray-800">
               <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
-                <strong>Who am I?</strong> <p className="max-w-[200px]" />
+                <strong>Who am I?</strong> <p className="max-w-[100px]" />
                 <br /> A problem-solver at heart, blending the sharp skills of
                 an engineer with the creative edge of programming.
                 <p />
                 <Image
-                  src={"/problem.jpg"}
+                  src={"/problem.png"}
                   width={450}
                   height={450}
                   role="img"
