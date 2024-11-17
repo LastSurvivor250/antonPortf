@@ -35,7 +35,7 @@ const Bio = () => {
               <br />
               <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
                 <Image
-                  src={"/desi.jpg"}
+                  src={"/desi.png"}
                   width={450}
                   height={450}
                   role="img"
