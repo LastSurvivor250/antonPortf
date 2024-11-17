@@ -14,13 +14,12 @@ const Bio = () => {
             <p className="text-lg font-medium text-gray-800">
               <strong>Who am I?</strong> <p />
               <br /> A problem-solver at heart, blending the sharp skills of an
-              anticorrosion engineer with the creative edge of a JavaScript and
-              React developer.
+              engineer with the creative edge of programming.
               <p />
               <br />
               <p /> <strong>But I don’t stop there</strong> <p />
               <br />
-              I'm also a t-shirt designer with a flair for bold,
+              I'm also a graphic designer with a flair for bold,
               thought-provoking visuals that get people talking.
               <p />
               <br /> <p />
@@ -32,20 +31,22 @@ const Bio = () => {
               <br />
               <p />
               <strong> What sets me apart?</strong> <p />
-              <br /> My diverse skill set. I’m not just an engineer. I’m also a
-              YouTuber, building a channel to spark conversations about ADHD and
-              mental health, inspiring resilience and growth.
+              <br /> My diverse skill set. I’m not just a boring technology geek
+              . I’m also an aspiring YouTuber with a passion to spark
+              conversations about modern society, mental health, inspiring
+              resilience in a crazy world, and personal growth.
               <p /> <br />
               <p />
               <strong> And did I mention?</strong> <p />
               <br />
-              I'm into combat sports, fitness, and all things manga and
-              anime—fueling my drive to always level up.
+              In the meantime, I truly combat sports, workouts and running.
+              Healthy brain needs healthy body after all.
               <p />
               <br /> <p />
-              <strong>Ready to innovate?</strong> <p />
-              <br /> Let’s make something unforgettable—whether it’s building
-              software that works or designs that speak.
+              <strong>Ready to collaborate? Have any questions?</strong> <p />
+              <br /> I'm here to bring your ideas to life. Whether it's a
+              complex software that actually works or stunning designs that
+              speak volumes.Let’s make something unforgettable together.
             </p>
           </div>
         </>
