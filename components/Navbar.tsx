@@ -31,7 +31,7 @@ const Navbar = () => {
     >
       <div className="max-w-[1400px] mx-auto flex justify-between items-center w-[91%]">
         <Link href={"#home"}>
-          <h1 className="text-3xl text-[#b63792] font-bold">Portfolio</h1>
+          <h1 className="text-3xl text-[#98f5e1] font-bold">Portfolio</h1>
         </Link>
 
         <ul
