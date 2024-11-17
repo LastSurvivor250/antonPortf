@@ -12,10 +12,12 @@ const Bio = () => {
         <>
           <div className="mt-4 text-center mb-10">
             <p className="text-lg font-medium text-gray-800">
-              <strong>Who am I?</strong> <p />
-              <br /> A problem-solver at heart, blending the sharp skills of an
-              engineer with the creative edge of programming.
-              <p />
+              <div className="text-lg font-medium text-gray-800 display-flex, justify-start, items-start">
+                <strong>Who am I?</strong> <p />
+                <br /> A problem-solver at heart, blending the sharp skills of
+                an engineer with the creative edge of programming.
+                <p />
+              </div>
               <br />
               <p /> <strong>But I don’t stop there</strong> <p />
               <br />
