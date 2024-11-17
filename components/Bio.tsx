@@ -19,7 +19,7 @@ const Bio = () => {
                 an engineer with the creative edge of programming.
                 <p />
                 <Image
-                  src={"/header-image.png"}
+                  src={"/problem.jpg"}
                   width={450}
                   height={450}
                   role="img"
