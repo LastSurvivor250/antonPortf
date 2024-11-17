@@ -13,7 +13,7 @@ const Hero = () => {
           <h2 className="font-bold md:text-4xl text-3xl mb-2">
             Hi I'm Paul a Full Stack
           </h2>
-          <h1 className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl text-[#98f5e1] font-bold mb-5">
+          <h1 className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl text-[#dca9cb] font-bold mb-5">
             Developer
           </h1>
           <span className="md:w-3/4 mb-5">
