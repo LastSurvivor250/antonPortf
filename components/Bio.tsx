@@ -15,7 +15,9 @@ const Bio = () => {
             <p className="text-lg font-medium text-gray-800">
               <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
                 <strong>Who am I?</strong> <p className="max-w-[100px]" />
-                <br /> A problem-solver at heart, blending the sharp skills of
+                <br /> A problem-solver at heart, <br /> blending the sharp
+                skills of
+                <br />
                 an engineer with the creative edge of programming.
                 <p />
                 <Image
