@@ -33,11 +33,24 @@ const Bio = () => {
                 />
               </div>
               <br />
-              <p /> <strong>But I don’t stop there</strong> <p />
-              <br />
-              I'm also a graphic designer with a flair for bold,
-              thought-provoking visuals that get people talking.
-              <p />
+              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
+                <Image
+                  src={"/desi.jpg"}
+                  width={450}
+                  height={450}
+                  role="img"
+                  aria-label="Antonio's Image"
+                  alt="Antonio's Image"
+                  className="md:justify-self-end max-md:w-96"
+                />
+                <div className="flex flex-col justify-center text-black flex-1 max-md:order-2 max-md:text-center">
+                  <p /> <strong>But I don’t stop there</strong> <p />
+                  <br />
+                  I'm also a graphic designer with a flair <br /> for bold,
+                  thought-provoking visuals that get people talking.
+                  <p />
+                </div>
+              </div>
               <br /> <p />
               <strong>My mission?</strong> <p />
               <br />
