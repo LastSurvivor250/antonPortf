@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Bio = () => {
   return (
-    <div id="projects" className="w-full h-fit py-10 relative bg-[#87cbb9]">
+    <div id="projects" className="w-full h-fit py-10 relative bg-[#dca9cb]">
       <div className="max-w-[1400px] mx-auto w-[91%]">
         <div className="flex justify-center">
           <span className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mt-4 mb-5">
@@ -13,7 +13,7 @@ const Bio = () => {
         <>
           <div className="mt-4 text-center mb-10">
             <p className="text-lg font-medium text-gray-800">
-              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center h-full w-[91%] max-md:flex-col">
+              <div className="relative flex justify-between max-w-[1400px] bg-[#87cbb9] mx-auto items-center h-full w-[91%] max-md:flex-col">
                 <div className="flex flex-col justify-center text-black flex-1 max-md:order-2 max-md:text-center">
                   <strong>Who am I?</strong> <p className="max-w-[100px]" />
                   <br /> A problem-solver at heart, <br /> blending the sharp
@@ -33,7 +33,7 @@ const Bio = () => {
                 />
               </div>
               <br />
-              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-black h-full w-[91%] max-md:flex-col">
+              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center text-white bg-black h-full w-[91%] max-md:flex-col">
                 <Image
                   src={"/desi.png"}
                   width={450}
