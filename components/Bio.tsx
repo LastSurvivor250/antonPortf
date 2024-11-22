@@ -70,6 +70,7 @@ const Bio = () => {
                   className="md:justify-self-end max-md:w-96"
                 />
               </div>
+              <br />
               <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-black h-full w-[91%] max-md:flex-col">
                 <Image
                   src={"/yout.png"}
@@ -94,30 +95,51 @@ const Bio = () => {
                   <p />
                 </div>
               </div>
-              <strong>My mission?</strong> <p />
+              <div className="relative flex justify-between max-w-[1400px] bg-[#87cbb9] mx-auto items-center h-full w-[91%] max-md:flex-col">
+                <div className="flex flex-col justify-center text-black flex-1 max-md:order-2 max-md:text-center">
+                  <strong>And did I mention?</strong>{" "}
+                  <p className="max-w-[100px]" />
+                  In the meantime, I truly combat sports, workouts and running.
+                  <br />
+                  Healthy brain needs healthy body after all.
+                  <p />
+                </div>
+                <Image
+                  src={"/miss.png"}
+                  width={450}
+                  height={450}
+                  role="img"
+                  aria-label="Antonio's Image"
+                  alt="Antonio's Image"
+                  className="md:justify-self-end max-md:w-96"
+                />
+              </div>
               <br />
-              To push boundaries, whether I’m coding clean, efficient web
-              applications or creating designs that challenge the status quo.{" "}
-              <p />
-              <br />
-              <p />
-              <strong> What sets me apart?</strong> <p />
-              <br /> My diverse skill set. I’m not just a boring technology geek
-              . I’m also an aspiring YouTuber with a passion to spark
-              conversations about modern society, mental health, inspiring
-              resilience in a crazy world, and personal growth.
-              <p /> <br />
-              <p />
-              <strong> And did I mention?</strong> <p />
-              <br />
-              In the meantime, I truly combat sports, workouts and running.
-              Healthy brain needs healthy body after all.
-              <p />
-              <br /> <p />
-              <strong>Ready to collaborate? Have any questions?</strong> <p />
-              <br /> I'm here to bring your ideas to life. Whether it's a
-              complex software that actually works or stunning designs that
-              speak volumes.Let’s make something unforgettable together.
+              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-black h-full w-[91%] max-md:flex-col">
+                <Image
+                  src={"/yout.png"}
+                  width={450}
+                  height={450}
+                  role="img"
+                  aria-label="Antonio's Image"
+                  alt="Antonio's Image"
+                  className="md:justify-self-end max-md:w-96"
+                />
+                <div className="flex flex-col justify-center  text-white  flex-1 max-md:order-2 max-md:text-center">
+                  <p />{" "}
+                  <strong>Ready to collaborate? Have any questions?</strong>{" "}
+                  <p />
+                  <br />
+                  I'm here to bring your ideas to life. Whether it's a complex
+                  <br />
+                  software that actually works or stunning designs that speak
+                  <br />
+                  volumes.Let’s make something unforgettable together.
+                  <br />
+                  <br />
+                  <p />
+                </div>
+              </div>
             </p>
           </div>
         </>
