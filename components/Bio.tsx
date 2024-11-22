@@ -52,6 +52,48 @@ const Bio = () => {
                 </div>
               </div>
               <br /> <p />
+              <div className="relative flex justify-between max-w-[1400px] bg-[#87cbb9] mx-auto items-center h-full w-[91%] max-md:flex-col">
+                <div className="flex flex-col justify-center text-black flex-1 max-md:order-2 max-md:text-center">
+                  <strong>My Mission?</strong> <p className="max-w-[100px]" />
+                  <br /> To push boundaries, whether I’m coding clean,
+                  <br /> efficient web applications or creating designs that
+                  challenge the status quo.
+                  <p />
+                </div>
+                <Image
+                  src={"/miss.png"}
+                  width={450}
+                  height={450}
+                  role="img"
+                  aria-label="Antonio's Image"
+                  alt="Antonio's Image"
+                  className="md:justify-self-end max-md:w-96"
+                />
+              </div>
+              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-black h-full w-[91%] max-md:flex-col">
+                <Image
+                  src={"/yout.png"}
+                  width={450}
+                  height={450}
+                  role="img"
+                  aria-label="Antonio's Image"
+                  alt="Antonio's Image"
+                  className="md:justify-self-end max-md:w-96"
+                />
+                <div className="flex flex-col justify-center  text-white  flex-1 max-md:order-2 max-md:text-center">
+                  <p /> <strong>What sets me apart?</strong> <p />
+                  <br />
+                  My diverse skill set. I’m not just a boring technology geek .{" "}
+                  <br />
+                  I’m also an aspiring YouTuber with a passion to spark
+                  <br />
+                  conversations about modern society, mental health, inspiring
+                  <br />
+                  resilience in a crazy world, and personal growth.
+                  <br />
+                  <p />
+                </div>
+              </div>
               <strong>My mission?</strong> <p />
               <br />
               To push boundaries, whether I’m coding clean, efficient web
