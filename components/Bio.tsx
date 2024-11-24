@@ -9,7 +9,7 @@ const Bio = () => {
   };
 
   return (
-    <div id="projects" className="w-full h-fit py-10 relative bg-[#87cbb9]">
+    <div id="projects" className="w-full h-fit py-10 relative bg-black">
       <div className="max-w-[1400px] mx-auto w-[91%]">
         <div className="flex justify-center">
           <button
@@ -54,7 +54,7 @@ const Bio = () => {
                     alt="Antonio's Image"
                     className="md:justify-self-end max-md:w-96"
                   />
-                  <div className="flex flex-col justify-center  text-white  flex-1 max-md:order-2 max-md:text-center">
+                  <div className="flex flex-col justify-center  text-black flex-1 max-md:order-2 max-md:text-center">
                     <p /> <strong>But I don’t stop there</strong> <p />
                     <br />
                     I'm also a graphic designer with a flair <br /> for bold,
@@ -92,7 +92,7 @@ const Bio = () => {
                     alt="Antonio's Image"
                     className="md:justify-self-end max-md:w-96"
                   />
-                  <div className="flex flex-col justify-center  text-white  flex-1 max-md:order-2 max-md:text-center">
+                  <div className="flex flex-col justify-center  text-black flex-1 max-md:order-2 max-md:text-center">
                     <p /> <strong>What sets me apart?</strong> <p />
                     <br />
                     My diverse skill set. I’m not just a boring technology geek
