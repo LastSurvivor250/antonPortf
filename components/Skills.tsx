@@ -38,7 +38,7 @@ const Skills = () => {
     setIsVisible(!isVisible); // Toggle the visibility state
   };
   return (
-    <section id="skills" className="w-full h-fit py-20 relative bg-black">
+    <div id="skills" className="w-full h-fit py-20 relative bg-black">
       <div className="flex justify-center">
         <button
           onClick={toggleVisibility}
@@ -56,7 +56,7 @@ const Skills = () => {
           ))}
         </div>
       )}
-    </section>
+    </div>
   );
 };
 
