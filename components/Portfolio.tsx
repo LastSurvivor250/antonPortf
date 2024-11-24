@@ -24,14 +24,14 @@ const Portfolio: React.FC<{ projects: Project[] }> = ({ projects }) => {
   };
 
   return (
-    <div id="projects" className="w-full h-fit py-10 relative bg-black">
+    <div id="projects" className="w-full h-fit py-10 relative bg-[#87cbb9]">
       <div className="max-w-[1400px] mx-auto w-[91%]">
         <div className="flex justify-center">
           <button
             onClick={toggleVisibility}
             className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5"
           >
-            {isVisible ? "Hide Projects" : "Projects"}
+            {isVisible ? "Hide Projects" : "Current Projects"}
           </button>
         </div>
         {isVisible && (
