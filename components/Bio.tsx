@@ -24,7 +24,7 @@ const Bio = () => {
           {isVisible && (
             <div className="mt-4 text-center mb-10">
               <p className="text-lg font-medium text-gray-800">
-                <div className="relative flex justify-between max-w-[1400px] bg-[#87cbb9]  bg-opacity-50  mx-auto items-center h-full w-[91%] max-md:flex-col">
+                <div className="relative flex justify-between max-w-[1400px] bg-gradient-to-t from-[#87cbb9] to-black    mx-auto items-center h-full w-[91%] max-md:flex-col">
                   <div className="flex flex-col justify-center text-black flex-1 max-md:order-2 max-md:text-center">
                     <strong>Who am I?</strong> <p className="max-w-[100px]" />
                     <br /> A problem-solver at heart, <br /> blending the sharp
