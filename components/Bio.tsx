@@ -71,7 +71,7 @@ const Bio = () => {
                 />
               </div>
               <br />
-              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-black h-full w-[91%] max-md:flex-col">
+              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-[#dca9cb] h-full w-[91%] max-md:flex-col">
                 <Image
                   src={"/yout.png"}
                   width={450}
