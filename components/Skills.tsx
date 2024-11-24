@@ -1,3 +1,4 @@
+"use client";
 import ProgressBar from "./ProgressBar";
 import React, { useState } from "react";
 
