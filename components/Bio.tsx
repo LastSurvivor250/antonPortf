@@ -2,15 +2,12 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-function ToggleContent() {
-  const [isVisible, setIsVisible] = useState(false); // State to track visibility
-
+const Bio = () => {
+  const [isVisible, setIsVisible] = useState(false);
   const toggleVisibility = () => {
     setIsVisible(!isVisible); // Toggle the visibility state
   };
-}
 
-const Bio = () => {
   return (
     <div id="projects" className="w-full h-fit py-10 relative bg-[#000000]">
       <div className="max-w-[1400px] mx-auto w-[91%]">
