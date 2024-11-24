@@ -16,8 +16,7 @@ const Bio = () => {
             onClick={toggleVisibility}
             className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mt-4 mb-5"
           >
-            {isVisible ? "Hide Content" : "Show Content"}
-            Bio
+            {isVisible ? "Hide Section" : "About Me"}
           </button>
         </div>
         <>
