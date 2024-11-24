@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Bio = () => {
   return (
-    <div id="projects" className="w-full h-fit py-10 relative bg-[#dca9cb]">
+    <div id="projects" className="w-full h-fit py-10 relative bg-[#000000]">
       <div className="max-w-[1400px] mx-auto w-[91%]">
         <div className="flex justify-center">
           <span className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mt-4 mb-5">
@@ -105,7 +105,7 @@ const Bio = () => {
                   <p />
                 </div>
                 <Image
-                  src={"/miss.png"}
+                  src={"/box.png"}
                   width={450}
                   height={450}
                   role="img"
@@ -117,7 +117,7 @@ const Bio = () => {
               <br />
               <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-black h-full w-[91%] max-md:flex-col">
                 <Image
-                  src={"/yout.png"}
+                  src={"/teamup.png"}
                   width={450}
                   height={450}
                   role="img"
