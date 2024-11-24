@@ -33,7 +33,7 @@ const Bio = () => {
                 />
               </div>
               <br />
-              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-black h-full w-[91%] max-md:flex-col">
+              <div className="relative flex justify-between max-w-[1400px] mx-auto items-center bg-[#dca9cb] h-full w-[91%] max-md:flex-col">
                 <Image
                   src={"/desi.png"}
                   width={450}
@@ -95,6 +95,7 @@ const Bio = () => {
                   <p />
                 </div>
               </div>
+              <br />
               <div className="relative flex justify-between max-w-[1400px] bg-[#87cbb9] mx-auto items-center h-full w-[91%] max-md:flex-col">
                 <div className="flex flex-col justify-center text-black flex-1 max-md:order-2 max-md:text-center">
                   <strong>And did I mention?</strong>{" "}
