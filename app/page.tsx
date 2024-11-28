@@ -29,7 +29,7 @@ export default async function Home() {
       <Hero />
 
       <ParticlesBackground />
-      <div className="h-10">
+      <div>
         <Bio />
         <Portfolio projects={projects} />
         <Skills />
