@@ -5,6 +5,7 @@ import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/autoplay";
+import React, { useState } from "react";
 
 const testimonials = [
   {
@@ -40,36 +41,46 @@ const testimonials = [
 ];
 
 const Testimonial = () => {
+  const [isVisible, setIsVisible] = useState(false); // State to track visibility
+
+  const toggleVisibility = () => {
+    setIsVisible(!isVisible); // Toggle the visibility state
+  };
   return (
     <div id="testimonials" className="w-full h-fit py-20 relative bg-white">
       <div className="max-w-[1400px] w-[91%] mx-auto">
         <div className="flex justify-center">
-          <span className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5">
-            Testimonials
-          </span>
+          <button
+            onClick={toggleVisibility}
+            className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5"
+          >
+            {isVisible ? "Hide Skills" : "Skills"}
+          </button>
         </div>
-        <Swiper
-          modules={[Autoplay]}
-          autoplay={{ delay: 5000 }}
-          speed={500}
-          spaceBetween={20}
-          slidesPerView={1}
-          breakpoints={{
-            768: {
-              slidesPerView: 2,
-            },
-            1024: {
-              slidesPerView: 3,
-            },
-          }}
-          className="w-full bg-white"
-        >
-          {testimonials.map((testimonial, index) => (
-            <SwiperSlide key={index}>
-              <TestimonialCard testimonial={testimonial} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {isVisible && (
+          <Swiper
+            modules={[Autoplay]}
+            autoplay={{ delay: 5000 }}
+            speed={500}
+            spaceBetween={20}
+            slidesPerView={1}
+            breakpoints={{
+              768: {
+                slidesPerView: 2,
+              },
+              1024: {
+                slidesPerView: 3,
+              },
+            }}
+            className="w-full bg-white"
+          >
+            {testimonials.map((testimonial, index) => (
+              <SwiperSlide key={index}>
+                <TestimonialCard testimonial={testimonial} />
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}{" "}
       </div>
     </div>
   );
