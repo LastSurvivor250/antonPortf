@@ -47,14 +47,14 @@ const Testimonial = () => {
     setIsVisible(!isVisible); // Toggle the visibility state
   };
   return (
-    <div id="testimonials" className="w-full h-fit py-20 relative bg-white">
+    <div id="testimonials" className="w-full h-fit py-20 relative bg-black">
       <div className="max-w-[1400px] w-[91%] mx-auto">
         <div className="flex justify-center">
           <button
             onClick={toggleVisibility}
             className="bg-purple-500 px-2 text-xl font-extrabold border uppercase rounded-md mb-5"
           >
-            {isVisible ? "Hide Skills" : "Skills"}
+            {isVisible ? "Hide Testimonials" : "Testimonials"}
           </button>
         </div>
         {isVisible && (
