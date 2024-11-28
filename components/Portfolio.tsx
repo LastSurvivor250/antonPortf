@@ -24,7 +24,7 @@ const Portfolio: React.FC<{ projects: Project[] }> = ({ projects }) => {
   };
 
   return (
-    <div id="projects" className="w-full h-fit  relative bg-black">
+    <div id="projects" className="w-full h-fit py-10  relative bg-black">
       <div className="max-w-[1400px] mx-auto w-[91%]">
         <div className="flex justify-center">
           <button

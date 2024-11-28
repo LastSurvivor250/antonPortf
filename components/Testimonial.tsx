@@ -49,7 +49,7 @@ const Testimonial = () => {
   return (
     <div
       id="testimonials"
-      className="w-full h-fit pb-30 mb-20 relative bg-black"
+      className="w-full h-fit py-10 mb-20 relative bg-black"
     >
       <div className="max-w-[1400px] w-[91%] mx-auto">
         <div className="flex justify-center">
