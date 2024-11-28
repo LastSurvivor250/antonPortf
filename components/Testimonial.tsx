@@ -47,7 +47,7 @@ const Testimonial = () => {
     setIsVisible(!isVisible); // Toggle the visibility state
   };
   return (
-    <div id="testimonials" className="w-full h-fit pb-10 relative bg-black">
+    <div id="testimonials" className="w-full h-fit pb-30 relative bg-black">
       <div className="max-w-[1400px] w-[91%] mx-auto">
         <div className="flex justify-center">
           <button
