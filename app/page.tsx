@@ -27,15 +27,15 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      <div className="max-w-[1400px] mx-auto w-[91%] h-full">
-        <ParticlesBackground />
-        <div className="h-10">
-          <Bio />
-          <Portfolio projects={projects} />
-          <Skills />
-          <Testimonial />
-        </div>
+
+      <ParticlesBackground />
+      <div className="h-10">
+        <Bio />
+        <Portfolio projects={projects} />
+        <Skills />
+        <Testimonial />
       </div>
+
       <Contact />
     </>
   );
