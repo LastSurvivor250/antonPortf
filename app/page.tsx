@@ -5,6 +5,7 @@ import Skills from "@/components/Skills";
 import Testimonial from "@/components/Testimonial";
 import Contact from "@/components/Contact";
 import { client } from "@/sanity/lib/client";
+import ParticlesBackground from "@/components/ParticlesBackground";
 
 export const dynamic = "force-dynamic";
 
@@ -26,10 +27,15 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      <Bio />
-      <Portfolio projects={projects} />
-      <Skills />
-      <Testimonial />
+      <div>
+        <ParticlesBackground />
+        <div className="h-10">
+          <Bio />
+          <Portfolio projects={projects} />
+          <Skills />
+          <Testimonial />
+        </div>
+      </div>
       <Contact />
     </>
   );
