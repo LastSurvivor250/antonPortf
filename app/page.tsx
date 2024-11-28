@@ -27,7 +27,7 @@ export default async function Home() {
   return (
     <>
       <Hero />
-      <div>
+      <div className="max-w-[1400px] mx-auto w-[91%] h-full">
         <ParticlesBackground />
         <div className="h-10">
           <Bio />
